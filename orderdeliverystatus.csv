@@ -1,0 +1,11 @@
+StatusID,DeliveryDate,DeliveryStatus
+1,2020-01-01,Delivered
+2,2020-01-02,Pending
+3,2020-01-03,"Out for Delivery"
+4,2020-01-04,Delivered
+5,2020-01-05,Cancelled
+11,2020-01-11,Delivered
+12,2020-01-12,Pending
+13,2020-01-13,"Out for Delivery"
+14,2020-01-14,Delivered
+15,2020-01-15,Cancelled

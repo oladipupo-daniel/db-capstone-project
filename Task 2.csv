@@ -1,0 +1,6 @@
+CustomerID,"Customer Names",OrderID,Cost,ItemName,Category
+1,"Aisha Abdullahi",1003,1500,"Jollof Rice",Cuisine
+3,"Chinelo Chukwu",1004,2500,"Pineapple Juice",Drinks
+1,"Aisha Abdullahi",1001,3500,"Jollof Rice",Cuisine
+1,"Aisha Abdullahi",1001,3500,"Grilled Chicken",Course
+2,"Olamide Olawale",1002,5000,"Mozzarella Sticks",Starter

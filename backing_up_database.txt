@@ -1,0 +1,50 @@
+"""mysqldump: Creates a SQL file with commands to recreate the database."""
+
+mysqldump -u username -p database_name > backup.sql
+
+mysql -u username -p database_name < backup.sql
+
+#take note of the > and < sign for backup and restore
+
+eg for backup use the original database name on the server
+mysqldump -u username -p LittleLemonDB > LittleLemonDB_backup.sql
+
+for restore 
+
+mysqldump -u username -p LittleLemonDB < LittleLemonDB_backup.sql
+
+
+-----
+Using an External Hard Drive
+Copy to external hard drive: Plug in the external hard drive, then copy the file.
+Bash
+cp Little_Lemon_DB_backup.sql /Volumes/ExternalDrive/backups/
+Move to another system: Take the external hard drive to another system, plug it in, and restore from the backup.
+Bash or command
+
+mysql -u username -p Little_Lemon_DB < /Volumes/ExternalDrive/backups/Little_Lemon_DB_backup.sql
+
+Using Google Drive
+Upload to Google Drive: You'd typically use the Google Drive web interface or a client like gdrive CLI tool to upload Little_Lemon_DB_backup.sql.
+Download on another system: Download from Google Drive on the other system, then restore.
+
+
+-------
+Transferring Backup Files Between Systems
+SCP (Secure Copy): Use SCP to securely transfer files between systems. Example:
+
+Bash or command
+scp Little_Lemon_DB_backup.sql user@remote-system:/path/to/destination
+
+SFTP or File Transfer Tools: You can also use SFTP clients like FileZilla or other file transfer tools.
+
+Restoring to a Different Database Name
+Edit the backup file: You could edit the backup file to change the database name, but that's cumbersome.
+
+Create the target database: A simpler way is to create the new database and restore into it. Example:
+
+Bash or command
+
+mysql -u username -p new_database_name < Little_Lemon_DB_backup.sql
+
+Backup file contains original DB name: If the backup was made with mysqldump without specific database tweaks, it’ll try to use the original DB name unless you edit the SQL or restore to that DB.

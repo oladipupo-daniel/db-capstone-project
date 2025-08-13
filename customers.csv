@@ -1,0 +1,22 @@
+CustomerID,CustomerName,PhoneNo,Email,EmployeeID
+1,"Aisha Abdullahi",08012345678,aisha@example.com,1
+2,"Olamide Olawale",07098765432,olamide@example.com,2
+3,"Chinelo Chukwu",09087654321,chinelo@example.com,3
+4,"Nneoma Nwosu",08076543210,nneoma@example.com,4
+5,"Bola Balogun",07065432109,bola@example.com,5
+6,"Funmi Falola",09054321098,funmi@example.com,6
+7,"Mateo Garcia",08012345678,mateo@example.com,1
+8,"Lusungu Banda",07098765432,lusungu@example.com,2
+9,"Nour Elsayed",09087654321,nour@example.com,3
+10,"Chenai Moyo",08076543210,chenai@example.com,4
+11,"Johan Smith",07065432109,johan@example.com,5
+12,"Fatou Diop",09054321098,fatou@example.com,6
+13,"Liam Brown",08043210987,liam@example.com,1
+14,"Aisha Mwangi",07032109876,aisha.mwangi@example.com,2
+15,"Sara Jensen",09021098765,sara@example.com,3
+16,"Yusuf Khan",08010987654,yusuf@example.com,4
+17,"Thembi Nkosi",07098712345,thembi@example.com,5
+18,"Amira Hassan",09087623456,amira@example.com,6
+19,"Kofi Owusu",08076534567,kofi@example.com,1
+20,"Malaika Pierre",07065445678,malaika@example.com,2
+21,"Diego Rivera",09054356789,diego@example.com,3

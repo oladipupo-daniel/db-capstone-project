@@ -1,0 +1,29 @@
+CREATE TABLE locations (
+    location_id INT PRIMARY KEY,
+    zipcode VARCHAR(10),
+    state VARCHAR(50),
+    country VARCHAR(50)
+);
+
+INSERT INTO locations (location_id, zipcode, state, country) VALUES
+(1, NULL, 'Lagos', 'Nigeria'),
+(2, NULL, 'Abuja', 'Nigeria'),
+(3, NULL, 'Oyo', 'Nigeria'),
+(4, NULL, 'Anambra', 'Nigeria'),
+(5, '10001', 'New York', 'United States'), -- for Johan Smith
+(6, NULL, 'Ogun', 'Nigeria'),
+(7, NULL, 'Lagos', 'Nigeria'),
+(8, NULL, 'Abuja', 'Nigeria'),
+(9, NULL, 'Oyo', 'Nigeria'),
+(10, NULL, 'Anambra', 'Nigeria'),
+(11, '90001', 'California', 'United States'), -- another US
+(12, NULL, 'Ogun', 'Nigeria'),
+(13, NULL, 'Lagos', 'Nigeria'),
+(14, NULL, 'Abuja', 'Nigeria'),
+(15, NULL, 'Oyo', 'Nigeria'),
+(16, NULL, 'Anambra', 'Nigeria'),
+(17, NULL, 'Lagos', 'Nigeria'),
+(18, NULL, 'Ogun', 'Nigeria'),
+(19, NULL, 'Abuja', 'Nigeria'),
+(20, NULL, 'Oyo', 'Nigeria'),
+(21, NULL, 'Anambra', 'Nigeria');

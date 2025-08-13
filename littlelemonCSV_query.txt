@@ -1,0 +1,13 @@
+SELECT 
+    c.CustomerName, 
+    l.state, 
+    l.country, 
+    mi.Category, 
+    mi.Price, 
+    oi.Quantity,
+    o.Total_Cost
+FROM customers c
+JOIN locations l ON c.location_id = l.location_id
+JOIN orders o ON c.CustomerID = o.CustomerID
+JOIN orderitems oi ON o.OrderID = oi.OrderID
+JOIN menuitems mi ON oi.MenuItemID = mi.MenuItemID;

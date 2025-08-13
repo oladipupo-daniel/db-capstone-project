@@ -1,0 +1,59 @@
+CustomerName,state,country,Category,Price,Quantity,Total_Cost,BookingDate
+"Aisha Abdullahi",California,"United States",Cuisine,1500,2,3500,2022-10-13
+"Aisha Abdullahi",California,"United States",Cuisine,1500,2,3500,2025-08-15
+"Aisha Abdullahi",California,"United States",Cuisine,1500,2,3500,2020-02-01
+"Aisha Abdullahi",California,"United States",Cuisine,1500,1,1500,2022-10-13
+"Aisha Abdullahi",California,"United States",Cuisine,1500,1,1500,2025-08-15
+"Aisha Abdullahi",California,"United States",Cuisine,1500,1,1500,2020-02-01
+"Olamide Olawale",Texas,"United States",Cuisine,1500,1,4000,2020-02-02
+"Chinelo Chukwu",Oyo,Nigeria,Cuisine,1500,3,3000,2020-02-03
+"Aisha Abdullahi",California,"United States",Cuisine,1500,2,2500,2022-10-13
+"Aisha Abdullahi",California,"United States",Cuisine,1500,2,2500,2025-08-15
+"Aisha Abdullahi",California,"United States",Cuisine,1500,2,2500,2020-02-01
+"Mateo Garcia",Lagos,Nigeria,Cuisine,1500,3,3200,2020-01-01
+"Mateo Garcia",Lagos,Nigeria,Cuisine,1500,3,3200,2020-01-01
+"Mateo Garcia",Lagos,Nigeria,Cuisine,1500,3,3200,2020-02-07
+"Nour Elsayed",Oyo,Nigeria,Cuisine,1500,1,1900,2020-01-01
+"Nour Elsayed",Oyo,Nigeria,Cuisine,1500,1,1900,2020-02-09
+"Fatou Diop",Ogun,Nigeria,Cuisine,1500,1,1500,2020-01-19
+"Fatou Diop",Ogun,Nigeria,Cuisine,1500,1,1500,2020-02-12
+"Aisha Mwangi",Abuja,Nigeria,Cuisine,1500,2,3800,2022-11-12
+"Aisha Mwangi",Abuja,Nigeria,Cuisine,1500,2,3800,2020-02-14
+"Thembi Nkosi",Lagos,Nigeria,Cuisine,1500,1,3000,2022-10-11
+"Thembi Nkosi",Lagos,Nigeria,Cuisine,1500,1,3000,2020-02-17
+"Malaika Pierre",Oyo,Nigeria,Cuisine,1500,1,2000,2020-02-20
+"James Wilson",Texas,"United States",Cuisine,1500,3,2900,2020-01-16
+"James Wilson",Texas,"United States",Cuisine,1500,3,2900,2020-02-23
+"Aisha Abdullahi",California,"United States",Course,2000,1,3500,2022-10-13
+"Aisha Abdullahi",California,"United States",Course,2000,1,3500,2025-08-15
+"Aisha Abdullahi",California,"United States",Course,2000,1,3500,2020-02-01
+"Olamide Olawale",Texas,"United States",Course,2000,1,4000,2020-02-02
+"Nneoma Nwosu",Anambra,Nigeria,Course,2000,1,4500,2020-01-01
+"Nneoma Nwosu",Anambra,Nigeria,Course,2000,1,4500,2020-01-01
+"Nneoma Nwosu",Anambra,Nigeria,Course,2000,1,4500,2020-02-04
+"Funmi Falola",Ogun,Nigeria,Course,2000,2,1800,2020-01-01
+"Funmi Falola",Ogun,Nigeria,Course,2000,2,1800,2020-02-06
+"Chenai Moyo",Anambra,Nigeria,Course,2000,2,2100,2020-01-01
+"Chenai Moyo",Anambra,Nigeria,Course,2000,2,2100,2020-02-10
+"Liam Brown",Lagos,Nigeria,Course,2000,1,2200,2020-02-13
+"Yusuf Khan",Anambra,Nigeria,Course,2000,1,2600,2020-02-16
+"Kofi Owusu",Abuja,Nigeria,Course,2000,3,4000,2020-02-19
+"Diego Rivera",Anambra,Nigeria,Course,2000,2,3400,2020-02-21
+"Sophie Laurent",Anambra,Nigeria,Course,2000,1,2300,2020-01-17
+"Sophie Laurent",Anambra,Nigeria,Course,2000,1,2300,2020-02-24
+"Olamide Olawale",Texas,"United States",Starter,1000,3,5000,2020-02-02
+"Aisha Abdullahi",California,"United States",Starter,1000,2,2000,2022-10-13
+"Aisha Abdullahi",California,"United States",Starter,1000,2,2000,2025-08-15
+"Aisha Abdullahi",California,"United States",Starter,1000,2,2000,2020-02-01
+"Bola Balogun","New York","United States",Starter,1000,1,1200,2020-02-05
+"Lusungu Banda",Abuja,Nigeria,Starter,1000,1,2800,2020-01-01
+"Lusungu Banda",Abuja,Nigeria,Starter,1000,1,2800,2022-10-10
+"Lusungu Banda",Abuja,Nigeria,Starter,1000,1,2800,2020-02-08
+"Johan Smith",California,"United States",Starter,1000,3,3500,2020-02-11
+"Sara Jensen",Oyo,Nigeria,Starter,1000,3,1400,2025-08-15
+"Sara Jensen",Oyo,Nigeria,Starter,1000,3,1400,2020-01-01
+"Sara Jensen",Oyo,Nigeria,Starter,1000,3,1400,2020-02-15
+"Amira Hassan",Ogun,Nigeria,Starter,1000,2,1600,2020-02-18
+"Emily Chen",California,"United States",Starter,1000,1,1100,2020-01-15
+"Emily Chen",California,"United States",Starter,1000,1,1100,2020-02-22
+"Chinelo Chukwu",Oyo,Nigeria,Drinks,500,2,2500,2020-02-03

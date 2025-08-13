@@ -1,0 +1,5 @@
+adding location_id to customer_table
+
+ALTER TABLE customers
+ADD location_id INT,
+ADD FOREIGN KEY (location_id) REFERENCES locations(location_id);

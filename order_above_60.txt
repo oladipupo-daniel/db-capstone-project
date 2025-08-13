@@ -1,0 +1,8 @@
+cursor.execute("""SELECT c.CustomerName, o.Total_Cost FROM customers c
+JOIN orders o ON c.CustomerID = o.CustomerID WHERE Total_Cost > 60""")
+columns = cursor.column_names
+results = cursor.fetchall()
+df = pd.DataFrame(results, columns=columns)
+print(df)
+
+Little Lemon need you to return specific details from your database. They require the full name and contact details for every customer that has placed an order greater than $60 for a promotional campaign. 

@@ -1,0 +1,16 @@
+DELIMITER //
+CREATE PROCEDURE CancelBooking(IN Booking_Id INT)
+BEGIN
+DELETE FROM bookings WHERE BookingID = Booking_Id;
+SELECT CONCAT('Booking ', Booking_Id, ' cancelled') AS Confirmation;
+END//
+DELIMITER ;
+
+CALL CancelBooking(9);
+
+Task 3
+For the third and final task, Little Lemon need you to create a new procedure called CancelBooking that they can use to cancel or remove a booking.
+
+The procedure should have one input parameter in the form of booking id. You must also write a DELETE statement inside the procedure. 
+
+When the procedure is invoked, the output result should be similar to the following screenshot:
